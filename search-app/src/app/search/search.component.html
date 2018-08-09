@@ -1,0 +1,5 @@
+<h1>It works</h1>
+<button (click)="getTopicList()">Get Topics</button>
+<ul *ngIf="topicList">
+  <li *ngFor="let topic of topicList">{{topic}}</li>
+</ul>
